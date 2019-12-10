@@ -114,3 +114,10 @@
 .ex-6-img:hover {
   filter:grayscale(1);
 }
+/* settimo-esercizio */
+.well {
+transition: all 2s ease-in 1s;
+}
+.ex-7-img:hover{
+  filter:grayscale(1) sepia(20%);
+}
