@@ -82,3 +82,11 @@
 .ex-2-square:active {
   width: 900px;
 }
+/* terzo-esercizio */
+.well {
+  transition: all 2s ease 1s;
+}
+.ex-3-square:hover {
+  border-radius:100px;
+}
+/* quarto-esercizio */
