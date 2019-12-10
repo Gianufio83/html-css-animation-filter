@@ -138,3 +138,16 @@ transition: all 2s ease-in 1s;
   border-radius: 14px;
   transform: scale(1.5);
 }
+/* decimo-esercizio */
+.ex-10-icon {
+  animation-name: start;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+@keyframes start {
+  0% {
+  transform: rotate(1turn);
+  }
+}
