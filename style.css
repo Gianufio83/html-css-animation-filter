@@ -129,3 +129,12 @@ transition: all 2s ease-in 1s;
   border-radius: 20px;
   filter:grayscale(0.5) sepia(5%);
 }
+/* nono-esercizio */
+.well {
+  transition:all 6s linear 1s;
+}
+.ex-9-img:hover {
+  filter:grayscale(1) sepia(0.5);
+  border-radius: 14px;
+  transform: scale(1.5);
+}
