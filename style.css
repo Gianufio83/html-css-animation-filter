@@ -201,3 +201,66 @@ transition: all 2s ease-in 1s;
     right: 10%;
   }
 }
+/* tredicesimo-esercizio */
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: top-white;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes top-white {
+  0% {
+    left:10%;
+    top:-10px;
+  }
+  30% {
+    left:calc(100% - 30px);
+    top:-10px;
+  }
+  45% {
+    left:calc(100% - 30px);
+    top:100px;
+  }
+  75% {
+    left:0%;
+    top:100%;
+  }
+  90% {
+    left:-15px;
+    top:-10px;
+  }
+  100% {
+    left:-10%;
+    top:-10px;
+  }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: bottom-white;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes bottom-white {
+  0% {
+    left:-10px;
+    top:-20%;
+  }
+  30% {
+    left:calc(100% - 30px);
+    bottom:-10px;
+  }
+  45% {
+    left:calc(100% - 30px);
+    bottom:100px;
+  }
+  75% {
+    right:0%;
+    bottom:100%;
+  }
+  90% {
+    right:-15px;
+    bottom:-10px;
+  }
+  100% {
+    bottom:-10px;
+    right:20%;
+  }
+}
