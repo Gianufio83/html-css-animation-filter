@@ -151,3 +151,20 @@ transition: all 2s ease-in 1s;
   transform: rotate(1turn);
   }
 }
+/* undicesimo-esercizio */
+.ex-11-icon:hover {
+  animation-name:pulsante;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes pulsante {
+  0% {
+    transform: rotate(0);
+  }
+  80% {
+    transform: rotate(300deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
