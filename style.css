@@ -110,3 +110,7 @@
   /* width: 20px;
   height: 20px; */
 }
+/* sesto-esercizio */
+.ex-6-img:hover {
+  filter:grayscale(1);
+}
