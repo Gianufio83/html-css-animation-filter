@@ -68,9 +68,17 @@
     height: 20px;
 }
 /* inizio transitions and Animations */
+/* primo-esercizio */
 .well {
-    transition: background 3s ease 1s;
+    transition: background 5s ease 2s;
 }
 .ex-1-square:hover {
   background-color: red;
+}
+/* secondo-esercizio */
+.well {
+  transiton: width 3s linear 1s;
+}
+.ex-2-square:active {
+  width: 900px;
 }
