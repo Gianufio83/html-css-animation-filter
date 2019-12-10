@@ -168,3 +168,36 @@ transition: all 2s ease-in 1s;
     transform: rotate(0);
   }
 }
+/* dodicesimo-esercizio */
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: change_button;
+  animation-duration:2s;
+  animation-timing-function: linear;
+}
+@keyframes change_button {
+  0% {
+  left:10%;
+  }
+  50% {
+    left:calc(100% - 50px);
+  }
+  100% {
+    right: 10%;
+  }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: move_bottom_white;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes move_bottom_white {
+  0% {
+  left:10%;
+  }
+  50% {
+    left:calc(100% - 50px);
+  }
+  100% {
+    right: 10%;
+  }
+}
